@@ -1,0 +1,26 @@
+
+.wx-panel { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 1.5rem; }
+.wx-panel h2 { font-size: 1.25rem; margin: 0 0 0.25rem; }
+.wx-panel label { display: grid; gap: 0.35rem; margin-top: 1rem; font-size: 0.9rem; font-weight: 600; flex: 1; }
+.wx-panel input {
+  font: inherit; font-weight: 400; padding: 0.6rem 0.75rem; width: 100%; box-sizing: border-box;
+  border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: #fff;
+}
+.wx-row { display: flex; gap: 0.75rem; }
+.wx-panel button {
+  font: inherit; font-weight: 600; cursor: pointer; border-radius: 8px;
+  border: 1px solid var(--ink); background: var(--ink); color: #fff; padding: 0.6rem 1.1rem;
+}
+.wx-panel form button { margin-top: 1.25rem; }
+.wx-panel button:disabled { opacity: 0.6; cursor: progress; }
+.wx-panel :focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
+.wx-hint { color: var(--muted); font-size: 0.9rem; margin: 0.25rem 0 0; }
+.wx-error { color: var(--err); font-size: 0.95rem; margin: 1rem 0 0; }
+.wx-result { margin-top: 1.25rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+.wx-temp { font-size: 3rem; font-weight: 700; margin: 0; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.wx-cond { font-size: 1.1rem; margin: 0.25rem 0 0; }
+.wx-toggle { display: inline-flex; margin-top: 0.9rem; }
+.wx-toggle button { background: #fff; color: var(--ink); border-color: var(--line); border-radius: 0; padding: 0.35rem 0.9rem; }
+.wx-toggle button:first-child { border-radius: 8px 0 0 8px; }
+.wx-toggle button:last-child { border-radius: 0 8px 8px 0; border-left: 0; }
+.wx-toggle button[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }

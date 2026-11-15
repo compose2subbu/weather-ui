@@ -1,0 +1,10 @@
+.wx-app {
+  --mist: #e8edf1; --panel: #ffffff; --ink: #15263a; --muted: #5b6b7c;
+  --line: #c9d3dc; --amber: #d98e04; --err: #b3261e;
+  font-family: "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  color: var(--ink); background: var(--mist);
+  min-height: 100vh; padding: 2rem 1rem;
+  display: grid; gap: 1.25rem; align-content: start;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  max-width: 52rem; margin: 0 auto; box-sizing: border-box;
+}

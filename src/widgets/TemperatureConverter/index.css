@@ -1,0 +1,15 @@
+.wx-panel { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 1.5rem; }
+.wx-panel h2 { font-size: 1.25rem; margin: 0 0 0.25rem; }
+.wx-panel label { display: grid; gap: 0.35rem; margin-top: 1rem; font-size: 0.9rem; font-weight: 600; flex: 1; }
+.wx-panel input {
+  font: inherit; font-weight: 400; padding: 0.6rem 0.75rem; width: 100%; box-sizing: border-box;
+  border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: #fff;
+}
+.wx-panel button {
+  font: inherit; font-weight: 600; cursor: pointer; border-radius: 8px;
+  border: 1px solid var(--ink); background: var(--ink); color: #fff; padding: 0.6rem 1.1rem;
+}
+.wx-panel form button { margin-top: 1.25rem; }
+.wx-panel button:disabled { opacity: 0.6; cursor: progress; }
+.wx-panel :focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
+.wx-hint { color: var(--muted); font-size: 0.9rem; margin: 0.25rem 0 0; }
